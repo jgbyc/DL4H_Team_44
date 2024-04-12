@@ -5,7 +5,7 @@ Original paper was written by Deepak A. KajiID1, John R. ZechID1, Jun S. Kim1, S
 
 ### Getting Started
 
-Following instructions will help to reproduce the result of orginal paper. all py files are adapted from https://github.com/deepak-kaji/mimic-lstm and updated to be able to run with Keras version 2.13.1, Tensorflow version 2.13.0
+Following instructions will help to reproduce the result of orginal paper. All py files are adapted from https://github.com/deepak-kaji/mimic-lstm and updated to be able to run with Keras version 2.13.1, Tensorflow version 2.13.0
 
 To begin, clone this repository. Within the repository, create a folder called, "mimic_database" where the MIMIC-III will live. Then, request access from https://mimic.physionet.org/gettingstarted/access/, complete the required training course, and request the access to MIMIC-III. Download all MIMIC-III CSVs to "./mimic_database".
 
@@ -18,7 +18,7 @@ Models and figures are generated in the .ipynb notebook.
 ### Prerequisites
 The pad_sequences.py file is required for rnn_mimic.py functionality. Additionally, the attention function adapted from Philippe Remy's Github has been cloned as attention_function.py and is required for the build_model function in rnn_mimic.py which assembles the LSTM-RNN with attention. All LSTM-RNNs were constructed in Tensorflow using the Keras API. Sklearn was used for validation metrics such as the AUROC. Numpy and Pandas libraries were required for table and matrix manipulation. 
 
-get_activation function under attention_function.py is outdated so Keras.py is used in the .ipynb to handle generating of attention heatmap
+get_activation function under attention_function.py is outdated so Keract.py is used in the .ipynb to handle generating of attention heatmap
 
 ### Authors
 Kun Ren and Yichen Bi was the contributor for this repository. 
