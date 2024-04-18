@@ -499,36 +499,36 @@ if __name__ == "__main__":
 # VANCOMYCIN ##
  
     train(model_name='kaji_mach_final_no_mask_SEPSIS_pad14_80_percent',
-          epochs=17, synth_data=False, predict=True, target='SEPSIS',
+          epochs=17, synth_data=False, predict=True, target='VANCOMYCIN',
           time_steps=14, n_percentage=0.80) 
   
     K.clear_session()
   
     train(model_name='kaji_mach_final_no_mask_SEPSIS_pad14_60_percent',
-          epochs=17, synth_data=False, predict=True, target='SEPSIS',
+          epochs=17, synth_data=False, predict=True, target='VANCOMYCIN',
           time_steps=14, n_percentage=0.60) 
   
     K.clear_session()
   
     train(model_name='kaji_mach_final_no_mask_SEPSIS_pad14_40_percent',
-          epochs=17, synth_data=False, predict=True, target='SEPSIS',
+          epochs=17, synth_data=False, predict=True, target='VANCOMYCIN',
           time_steps=14, n_percentage=0.40) 
   
     K.clear_session()
   
     train(model_name='kaji_mach_final_no_mask_SEPSIS_pad14_20_percent',
-          epochs=17, synth_data=False, predict=True, target='SEPSIS',
+          epochs=17, synth_data=False, predict=True, target='VANCOMYCIN',
           time_steps=14, n_percentage=0.20) 
   
     K.clear_session()
   
     train(model_name='kaji_mach_final_no_mask_SEPSIS_pad14_10_percent',
-          epochs=13, synth_data=False, predict=True, target='SEPSIS',
+          epochs=13, synth_data=False, predict=True, target='VANCOMYCIN',
           time_steps=14, n_percentage=0.10)
   
     K.clear_session()
   
     train(model_name='kaji_mach_final_no_mask_SEPSIS_pad14_5_percent',
-          epochs=13, synth_data=False, predict=True, target='SEPSIS',
+          epochs=13, synth_data=False, predict=True, target='VANCOMYCIN',
           time_steps=14, n_percentage=0.05)
 
