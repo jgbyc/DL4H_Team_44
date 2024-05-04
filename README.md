@@ -26,6 +26,9 @@ get_activation function under attention_function.py is outdated so Keract.py is 
 3. Copy keract.py into the Colab_notebooks.
 4. Run the DL4H_Team_44.ipynb through Colab. 
 
+### Presentation Link
+https://drive.google.com/file/d/1G8j2mwtLJ3NJnFOdu_ZgMmPizkmlzuM4/view?usp=sharing
+
 ### Authors
 Kun Ren and Yichen Bi was the contributor for this repository. 
 
