@@ -20,6 +20,12 @@ The pad_sequences.py file is required for rnn_mimic.py functionality. Additional
 
 get_activation function under attention_function.py is outdated so Keract.py is used in the .ipynb to handle generating of attention heatmap
 
+### Steps to run the DL4H_Team_44.ipynb
+1. Create a folder called Colab_notebooks in the Google Drive
+2. Copy folders ./pickled_objects/, ./saved_models/, ./discussion_results_figures and their contents into the Colab_notebooks.
+3. Copy keract.py into the Colab_notebooks.
+4. Run the DL4H_Team_44.ipynb through Colab. 
+
 ### Authors
 Kun Ren and Yichen Bi was the contributor for this repository. 
 
